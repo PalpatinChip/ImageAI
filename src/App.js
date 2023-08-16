@@ -8,9 +8,9 @@ function App() {
     <BrowserRouter>
       <div>
         <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/process" element={<ProcessScreen />} />
-          <Route path="/about" element={<AboutScreen />} />
+          <Route path="/ImageAi" element={<HomeScreen />} />
+          <Route path="/ImageAi/process" element={<ProcessScreen />} />
+          <Route path="/ImageAi/about" element={<AboutScreen />} />
           <Route path="*" element={<h1 style={{ marginLeft: "35%" }}>Данной страницы не существует</h1>} />
         </Routes>
       </div>

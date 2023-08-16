@@ -28,13 +28,13 @@ const Navigation = () => {
                         <p className={style.logo}><p style={{ color: "red" }}>Товар</p>Камий</p>
                         <hr />
                         <div className={style.menuText}>
-                            <Link to="/" className={style.link}>
+                            <Link to="/ImageAi" className={style.link}>
                                 <p>Главная</p>
                             </Link>
-                            <Link to="/process" className={style.link}>
+                            <Link to="/ImageAi/process" className={style.link}>
                                 <p>Сгенерировать изображение</p>
                             </Link>
-                            <Link to="/about" className={style.link}>
+                            <Link to="/ImageAi/about" className={style.link}>
                                 <p>О сервисе</p>
                             </Link>
                         </div>
