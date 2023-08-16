@@ -1,3 +1,5 @@
+Ссылка на проект - https://aspir01.github.io/ImageAI/
+
 Чтобы запустить проект пишите:
 ###  `npm i`
 ### `npm start`
