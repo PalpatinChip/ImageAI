@@ -1,0 +1,80 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    padding: 3% 5%;
+    z-index: 5 !important;
+}
+
+.nav p {
+    display: inline;
+}
+
+svg {
+    cursor: pointer;
+
+    z-index: 5 !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    font-size: 26px !important;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+
+.logo p {
+    cursor: default !important;
+    font-size: 26px !important;
+    text-decoration: none !important;
+}
+
+hr {
+    width: 180px;
+    margin: 10px 0;
+}
+
+.verticalmenu {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 15%;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    padding: 50px 30px;
+    background: #000;
+    border-radius: 15px;
+    font-size: 26px;
+}
+
+.verticalmenu p {
+    cursor: pointer;
+    margin: 12px 0;
+    transition: 0.2s;
+}
+
+.verticalmenu p:hover {
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.close {
+    position: absolute;
+    right: 24%;
+    top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none !important;
+}
+
+.menuText {
+    display: flex;
+    flex-direction: column;
+}

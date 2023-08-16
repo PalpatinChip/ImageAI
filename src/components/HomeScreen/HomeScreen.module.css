@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 40px;
+}
+
+.text {
+    text-align: center;
+    margin: 12% 0 5% 0;
+}
+
+.btn {
+    width: 330px;
+    height: 70px;
+    border: none;
+    border-radius: 16px;
+    background: #ffffff;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fc0;
+}
+
+.link {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,153 @@
+.proc {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.main {
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.proc div {
+    display: flex;
+}
+
+.selected {
+    border: 3px solid #fc0 !important;
+}
+
+.fncts {
+    flex-direction: column;
+    width: 35%;
+}
+
+.ai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ADADAD;
+    border-radius: 15px;
+    height: 57px;
+    color: black;
+}
+
+.ai p {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fc0;
+    border-radius: 15px;
+    height: 57px;
+}
+
+.ai p:hover {
+    background: #fc0;
+    border-radius: 15px;
+    height: 57px;
+}
+
+.middle {
+    display: flex;
+    width: 35%;
+    height: 503px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.middle img {
+    width: 15%;
+}
+
+.examples {
+    flex-direction: column;
+    font-size: 30px;
+    justify-content: space-around;
+    border-radius: 16px;
+    border: 1px solid #FFF;
+    height: 490px;
+    padding: 0 30px;
+}
+
+.imgs {
+    justify-content: space-between;
+    height: 100px;
+}
+
+.imgs img {
+    cursor: pointer;
+    width: 22%;
+    height: 130px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+}
+
+.btn {
+    width: 320px;
+    height: 83px;
+    font-size: 20px;
+    margin: 0 50px;
+    border: none;
+    border-radius: 15px;
+    background: #FFF;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #FFCC00D9;
+}
+
+
+.generate {
+    width: 331px;
+    height: 69px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    transition: 0.3s;
+}
+
+.generate:hover {
+    background: #fc0;
+}
+
+input {
+    display: none;
+}
+
+.footer {
+    margin: 2.4% 5%;
+    height: 211px;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+}
+
+.actual {
+    width: 20%;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5% 0;
+}
+
+.actual img {
+    border-radius: 15px;
+    height: 400px;
+}
