@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ImageAI/static/css/main.be21ac3c.css",
+    "main.js": "/ImageAI/static/js/main.33b4e329.js",
+    "index.html": "/ImageAI/index.html",
+    "main.be21ac3c.css.map": "/ImageAI/static/css/main.be21ac3c.css.map",
+    "main.33b4e329.js.map": "/ImageAI/static/js/main.33b4e329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be21ac3c.css",
+    "static/js/main.33b4e329.js"
+  ]
+}
